@@ -11,9 +11,9 @@ datasource db {
 }
 
 model Link {
-  id Int @id @default(autoincrement())
+  id    Int    @id @default(autoincrement())
   title String
-  url String
+  url   String
 
   @@map("links")
 }
